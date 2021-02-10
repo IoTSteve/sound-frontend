@@ -1,4 +1,9 @@
+
+
+
 <template>
+
+
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
@@ -32,12 +37,6 @@ export default {
   },
   mounted() {
     this.axios.get('/')
-      .then(response => {
-        console.log(response.data);
-      })
-        .catch(error => console.error(error));
-
-        this.axios.get('/posts')
       .then(response => {
         console.log(response.data);
       })
