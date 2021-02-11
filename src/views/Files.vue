@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div v-for="post in posts" :key="post._id">
+  <div v-for="post in posts" :key="post._id"> <!-- //Dateianzeige als plain text wenn man /files aufruft -->
     <h1>{{post._id}}</h1>
     <p>{{post.dev_id}}</p>
     <p>{{post.payload_fields}}</p>

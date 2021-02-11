@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home // Home path
   },
   {
     path: '/about',  // greift auf die komponente About.vue zu

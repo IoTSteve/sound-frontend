@@ -5,6 +5,8 @@
 </template>
 
 <script>
+//Dummy daten werden über eine POST anfrage richtung backend geschickt und somit dann an die Datenbang.
+
   export default {
     name: "Register",
   
