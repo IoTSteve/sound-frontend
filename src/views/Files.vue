@@ -18,7 +18,7 @@
       }
     },
     mounted() {
-      this.axios.get('/posts')
+      this.axios.get('/posts') //führt eine get anfrage auf /posts durch
         .then(response => {
           console.log(response.data);
           this.posts=response.data

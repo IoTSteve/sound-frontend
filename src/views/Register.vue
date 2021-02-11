@@ -5,10 +5,10 @@
 </template>
 
 <script>
-//Dummy daten werden über eine POST anfrage richtung backend geschickt und somit dann an die Datenbang.
+//Dummy daten werden über eine POST anfrage richtung backend geschickt und somit dann an die Datenbank.
 
   export default {
-    name: "Register",
+    name: "Register", 
   
     mounted() {
       this.axios.post('/posts/register', {
